@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online - Chaibugs Cafe</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>Order Online</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="order.html">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 style="color: #ffffff;">Place Your Order</h2>
+            <form action="#" method="POST">
+                <label for="item" style="color: #ffffff;">Select Item:</label>
+                <select id="item" name="item">
+                    <option value="Masala-chai">Masala Chai</option>
+                    <option value="Tost">Tost</option>
+                    <option value="Instant-Coffee">Instant-Coffee</option>
+                    <option value="Cold-Coffee">Cold-Coffee</option>
+                    <option value="Black-Coffee">Black-Coffee</option>
+                    <option value="Coco">Coco</option>
+                    <option value="Choco lava cake">Choco lava cake</option>
+                    <option value="Lassi">Lassi</option>
+                    <option value="Chocolate Ice-Cream">Chocolate Ice-Cream</option>
+                </select>
+                
+                <label for="quantity"style="color: #ffffff;">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+                
+                <label for="name"style="color: #ffffff;">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone"style="color: #ffffff;">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <button type="submit"><a href="thankyou.html">Order</a></button>
+                
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 Chaibugs Cafe</p>
+    </footer>
+</body>
+</html>
